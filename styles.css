@@ -3,3 +3,25 @@ body {
     color: white;
     background-color: black;
     }
+
+    h1 {
+        font-size: 20px;
+    }
+
+     p{
+        color:green;
+        font-size: 12px;
+     }
+
+    .reunus{
+        color: grey;
+        background-color: wheat;
+        border-style: dotted;
+        border-width: 2px;
+        width: 100px;
+        height: 100px;
+        
+
+    }
+
+    }
