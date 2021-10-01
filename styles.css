@@ -15,13 +15,17 @@ body {
 
     .reunus{
         color: grey;
-        background-color: wheat;
+        background-color: whitesmoke;
         border-style: dotted;
         border-width: 2px;
         width: 100px;
         height: 100px;
-        
-
     }
+    ol {
+        counter-reset: item;
+        list-style-type: lower-latin;
+     }
+
+     ul{list-style-type: square;}
 
     }
