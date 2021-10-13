@@ -1,5 +1,5 @@
 
-body { 
+body{ 
     color: white;
     background-color: black;
     width: 90%;
@@ -7,7 +7,7 @@ body {
     margin-right: auto;
     }
 
-    h1 {
+    h1{
         font-size: 20px;
         border-style: groove;
         border-color: coral;
@@ -54,7 +54,7 @@ body {
             border-style: inset;
             border-width: 1px;
           } 
-header {
+header{
     color:darkslategrey;
     background-color: floralwhite;
     text-align: center;
@@ -65,13 +65,16 @@ nav{
     background-color:lightslategray;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    width: 20%;
 }
 
 section{
     background-color: lightcyan;
     color:rgb(2, 44, 25);
-
-
+    float: right;
+    width: 70%;
+    padding: 5%
 }
 
 aside{
@@ -92,24 +95,25 @@ footer{
     background-color: lemonchiffon;
     text-align:center;
     font-family: monospace;
+    clear:both;
+
 }
 
-nav ul {
+nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
     background-color: #f1f1f1;
   }
   
- nav li a {
+ nav li a{
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
   }
 
-  nav li a:hover {
+  nav li a:hover{
     background-color: #555;
-    color: white;
+    color: red;
   }
