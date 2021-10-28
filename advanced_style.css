@@ -24,4 +24,4 @@ transition: all 5s linear;
     color: hotpink;
   }
 
-  @media screen and (max-width: 900px) { body { background-color: black; color: whitesmoke }}
+  @media screen and (max-width: 800px) { body { background-color: black; color: whitesmoke }}
